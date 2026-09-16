@@ -20,7 +20,7 @@ function App() {
       <Products products={products} />
       <Counter />
       <Temperature temp={temp} />
-      <Input setTemp={setTemp} />
+      <Input setTemp={setTemp} temp={temp} />
     </div>
   );
 }

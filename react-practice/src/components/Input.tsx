@@ -1,7 +1,9 @@
-const Input=({setTemp})=>{
+const Input=({temp,setTemp})=>{
+
+
     return(
     <>
-       <input type="text" onChange={(event)=>setTemp(event.target.value)}  />
+       <input type="text" value={temp} onChange={(event)=>setTemp(event.target.value)}  />
     </>
 )
 }
