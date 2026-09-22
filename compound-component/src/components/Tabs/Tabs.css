@@ -1,0 +1,44 @@
+.tabs {
+  width: 500px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.tabs-list {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabs-trigger {
+  padding: 10px 20px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tabs-trigger:hover {
+  background: #ddd;
+}
+
+.tabs-trigger.active {
+  background: #333;
+  color: white;
+}
+
+.tabs-trigger:focus-visible {
+  outline: 3px solid #4c9ffe;
+  outline-offset: 2px;
+}
+
+.tabs-panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  min-height: 100px;
+}
+
+.tabs-panel:focus-visible {
+  outline: 2px solid #4c9ffe;
+}
